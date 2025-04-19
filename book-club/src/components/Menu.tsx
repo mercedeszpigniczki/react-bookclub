@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Menu: React.FC = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/characters">Characters</Link>
-        </li>
-      </ul>
-    </nav>
+      <nav className="menu">
+        <ul className="menu-list">
+          <li className="menu-item">
+            <Link to="/" className="menu-link">Home</Link>
+          </li>
+          <li className="menu-item">
+            <Link to="/characters" className="menu-link">Characters</Link>
+          </li>
+        </ul>
+      </nav>
   );
 }
 
