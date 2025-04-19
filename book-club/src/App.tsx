@@ -1,8 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
-import Menu from './components/Menu'; // Adjust the path if necessary
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Menu from './components/Menu';
 import Home from './pages/Home';
 import Characters from './pages/Characters';
 
